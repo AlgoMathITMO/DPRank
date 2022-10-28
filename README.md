@@ -72,3 +72,5 @@ The demand calculated from the prices received from the optimizer and the demand
 The revenue received as a result of optimization and the revenue of the passenger railway company is shown in Figure 8.
 
 ![Figure 8. Comparison of the revenue obtained by optimization and the revenue of a passenger railway company for a Type A train.](https://github.com/AlgoMathITMO/DPRank/blob/main/All_data/Fig/A_752A/A%20Average%20revenue%2Bconfidence%20interval.jpg "Figure 8. Comparison of the revenue obtained by optimization and the revenue of a passenger railway company for a Type A train.")
+
+Some other graphical results are presented at the [link](https://github.com/AlgoMathITMO/DPRank/tree/main/All_data/Fig/ "Graphic results").
