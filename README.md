@@ -49,8 +49,6 @@ The histogram of the distribution of model errors is shown in Figure 3.
 
 ![Figure 3. Model errors distribution histogram for Type A train.](https://github.com/AlgoMathITMO/DPRank/blob/main/All_data/Fig/A_752A/A%20Histogram%20of%20distribution%20of%20errors.jpg "Figure 3. Model errors distribution histogram for Type A train.")
 
-In Figure 3, the ADF results are the results of the Dickey-Fuller test for stationarity.
-
 ### Getting bounds for optimization
 
 The distribution of prices by service classes and their boundaries are shown in Figure 4.
