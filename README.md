@@ -103,7 +103,7 @@ The revenue received as a result of optimization and the revenue of the passenge
 
 Numerical optimization results obtained from the [data](https://github.com/AlgoMathITMO/DPRank/tree/main/All_data/Opt_data "Optimization results for different trains") are shown in Table 3.
 
-Table 3: Table 4: Summarized revenue (as the sum of revenue random variables for τ = 2, . . . , 14)
+Table 3: Summarized revenue (as the sum of revenue random variables for τ = 2, . . . , 14)
 obtained via simulation and from the real-world Railways Company data (m and s stand
 for the sample mean and sample standard deviation, correspondingly). The amounts in rubles
 and percents are rounded to the nearest integer. Statistically significant revenue changes
