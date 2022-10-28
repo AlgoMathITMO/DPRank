@@ -5,8 +5,9 @@ This repository presents an implementation of algorithmic support for dynamic pr
 
 Since the study also includes incremental learning of the obtained surrogate models, the initial data were divided into two datasets, which are called old and new data in the notebook, respectively. In this notebook, a surrogate model was built on the combined old and new data. For incremental learning, a surrogate demand model can be built on old data and incrementally updated with new data.
 
-The data files in the root directory are obtained because of experiments on building a surrogate model on old data and its incremental learning on new data. The All_data (All_data.zip) folder contains files obtained because of experiments on building a surrogate model using a combined dataset of old and new data.
-To build a surrogate model from the merged data, use the algorithm in the All_data notebook paragraph. To build a surrogate model only from old data for its further incremental training, the algorithm in the All_data paragraph should not be used.
+The data files in the root directory are obtained because of experiments on building a surrogate model on old data and its incremental learning on new data. The [All_data](https://github.com/AlgoMathITMO/DPRank/tree/main/All_data "Data obtained during modeling with a combined dataset") (All_data.zip) folder contains files obtained because of experiments on building a surrogate model using a combined dataset of old and new data.
+
+To build a surrogate model from the merged data, use the algorithm in the All_data [notebook](https://github.com/AlgoMathITMO/DPRank/blob/main/Surr_mod.ipynb "Notebook") paragraph. To build a surrogate model only from old data for its further incremental training, the algorithm in the All_data paragraph should not be used.
 
 ### Description of data files: 
 
