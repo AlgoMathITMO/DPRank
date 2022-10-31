@@ -103,9 +103,10 @@ Numerical optimization results obtained from the [data](https://github.com/AlgoM
 
 Table 3: Summarized revenue (as the sum of revenue random variables for τ = 2, . . . , 14)
 obtained via simulation and from the real-world Railways Company data (m and s stand
-for the sample mean and sample standard deviation, correspondingly). The amounts in rubles
-and percents are rounded to the nearest integer. Statistically significant revenue changes
-are shown in magenta.
+for the sample mean and sample standard deviation, correspondingly). The amounts in
+rubles and percents are rounded to the nearest integer. The revenue changes comparable with
+or more than the standard deviation of both the simulation and Railways Company data
+samples are shown in magenta.
 <p align="center">
   <img src="https://github.com/AlgoMathITMO/DPRank/blob/main/Tables/revenue_update.jpg">
 </p>
