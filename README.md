@@ -37,23 +37,43 @@ Table 1: The structure of the data collected and used.
 
 As a result of approximation by a power function of the existing price elasticity of demand, its description is formed, as shown in Figure 1.
 
-![Figure 1. Price elasticity of demand for Type A train](https://github.com/AlgoMathITMO/Railways_surrogate_modeling/blob/main/All_data/Fig/A_752A/A%20Surrogate%20model%20of%20price%20elasticity%20of%20demand.jpg "Figure 1. Price elasticity of demand for Type A train.")
+<p align="center">
+  <img src="https://github.com/AlgoMathITMO/Railways_surrogate_modeling/blob/main/All_data/Fig/A_752A/A%20Surrogate%20model%20of%20price%20elasticity%20of%20demand.jpg" width=100% height=100%>
+</p>
+<p align="center">
+  Figure 1. Price elasticity of demand for Type A train.
+</p>
 
 The parameters of this model are represented by the coefficients a and b, as well as the absolute and relative errors.
 
 The model parameters are shown in Figure 2.
 
-![Figure 2. Parameters of the linearized model of price elasticity of demand for a Type A train.](https://github.com/AlgoMathITMO/Railways_surrogate_modeling/blob/main/All_data/Fig/A_752A/A%20Model_parameters.jpg "Figure 2. Parameters of the linearized model of price elasticity of demand for a Type A train.")
+<p align="center">
+  <img src="https://github.com/AlgoMathITMO/Railways_surrogate_modeling/blob/main/All_data/Fig/A_752A/A%20Model_parameters.jpg" width=60% height=60%>
+</p>
+<p align="center">
+  Figure 2. Parameters of the linearized model of price elasticity of demand for a Type A train.
+</p>
 
 The histogram of the distribution of model errors is shown in Figure 3.
 
-![Figure 3. Model errors distribution histogram for Type A train.](https://github.com/AlgoMathITMO/DPRank/blob/main/All_data/Fig/A_752A/A%20Histogram%20of%20distribution%20of%20errors.jpg "Figure 3. Model errors distribution histogram for Type A train.")
+<p align="center">
+  <img src="https://github.com/AlgoMathITMO/DPRank/blob/main/All_data/Fig/A_752A/A%20Histogram%20of%20distribution%20of%20errors.jpg" width=100% height=100%>
+</p>
+<p align="center">
+  Figure 3. Model errors distribution histogram for Type A train.
+</p>
 
 ### Getting bounds for optimization
 
 The distribution of prices by service classes and their boundaries are shown in Figure 4.
 
-![Figure 4. Distribution of prices by class of service for a Type A train.](https://github.com/AlgoMathITMO/DPRank/blob/main/All_data/Fig/A_752A/A%20Price%20histogram%20with%20price%20ranges%20of%20classes.jpg "Figure 4. Distribution of prices by class of service for a Type A train.")
+<p align="center">
+  <img src="https://github.com/AlgoMathITMO/DPRank/blob/main/All_data/Fig/A_752A/A%20Price%20histogram%20with%20price%20ranges%20of%20classes.jpg" width=80% height=80%>
+</p>
+<p align="center">
+  Figure 4. Distribution of prices by class of service for a Type A train.
+</p>
 
 Service classes provided:
 * B1 — First;
@@ -63,12 +83,6 @@ Service classes provided:
 
 Since the real price boundaries of the classes are unknown, the lines in this figure represent the price boundaries that we obtained. The dashed line shows the real average prices by class of service. These bounds are further used for optimization.
 
-#### Validation
-
-Before optimization, the results of generating model errors from the experimental distribution were validated. The validation results are shown in Figure 5.
-
-![Figure 5. Validation results of the model error generation algorithm for Type A train.](https://github.com/AlgoMathITMO/DPRank/blob/main/All_data/Fig/A_752A/A%20Surrogate%20model%20validation%20results.jpg "Figure 5. Validation results of the model error generation algorithm for Type A train.")
-
 ### Optimization
 
 The optimization results are shown in the [Figures](https://github.com/AlgoMathITMO/DPRank/tree/main/All_data/Fig/A_752A "A Type train Figures") below. In these figures, the line shows the corresponding average values of the quantities, the semi-transparent area indicates the confidence interval.
@@ -77,13 +91,23 @@ The optimization results are shown in the [Figures](https://github.com/AlgoMathI
 
 The prices obtained as a result of the optimization and the prices of the passenger railway company are shown in Figure 6.
 
-![Figure 6. Comparison of prices based on optimization results for Type A train.](https://github.com/AlgoMathITMO/DPRank/blob/main/All_data/Fig/A_752A/A%20Average%20prices%2Bconfidence%20interval.jpg "Figure 6. Comparison of prices based on optimization results for Type A train.")
+<p align="center">
+  <img src="https://github.com/AlgoMathITMO/DPRank/blob/main/All_data/Fig/A_752A/A%20Average%20prices%2Bconfidence%20interval.jpg" width=55% height=55%>
+</p>
+<p align="center">
+  Figure 6. Comparison of prices based on optimization results for Type A train.
+</p>
 
 #### Demand
 
 The demand calculated from the prices received from the optimizer and the demand of the passenger railway company is shown in Figure 7.
 
-![Figure 7. Comparison of the demand obtained by optimization and the demand of a passenger railway company for Type A train.](https://github.com/AlgoMathITMO/DPRank/blob/main/All_data/Fig/A_752A/A%20Average%20demand%2Bconfidence%20interval.jpg "Figure 7. Comparison of the demand obtained by optimization and the demand of a passenger railway company for Type A train.")
+<p align="center">
+  <img src="https://github.com/AlgoMathITMO/DPRank/blob/main/All_data/Fig/A_752A/A%20Average%20demand%2Bconfidence%20interval.jpg" width=55% height=55%>
+</p>
+<p align="center">
+  Figure 7. Comparison of the demand obtained by optimization and the demand of a passenger railway company for Type A train.
+</p>
 
 The limits on the demand of the passenger railway company and the demand achieved as a result of optimization are shown in Table 2.
 
@@ -97,7 +121,12 @@ Table 2: otal demand for tickets received by the optimizer by class of service f
 
 The revenue received as a result of optimization and the revenue of the passenger railway company is shown in Figure 8.
 
-![Figure 8. Comparison of the revenue obtained by optimization and the revenue of a passenger railway company for a Type A train.](https://github.com/AlgoMathITMO/DPRank/blob/main/All_data/Fig/A_752A/A%20Average%20revenue%2Bconfidence%20interval.jpg "Figure 8. Comparison of the revenue obtained by optimization and the revenue of a passenger railway company for a Type A train.")
+<p align="center">
+  <img src="https://github.com/AlgoMathITMO/DPRank/blob/main/All_data/Fig/A_752A/A%20Average%20revenue%2Bconfidence%20interval.jpg" width=55% height=55%>
+</p>
+<p align="center">
+  Figure 8. Comparison of the revenue obtained by optimization and the revenue of a passenger railway company for a Type A train.
+</p>
 
 Numerical optimization results obtained from the [data](https://github.com/AlgoMathITMO/DPRank/tree/main/All_data/Opt_data "Optimization results for different trains") are shown in Table 3.
 
