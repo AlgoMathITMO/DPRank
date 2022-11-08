@@ -12,6 +12,10 @@ Algorithmic software for dynamic pricing without incremental learning is divided
 ### Description of data files: 
 
 * data.csv (data.zip) - Old data
+* prices.csv - Not average prices
+* places.csv - Number of empty seats in train cars
+* demand.csv - Ticket demand
+* prices_cons.csv - Data used to obtain price bounds
 * new_data.csv (new_data.zip)- New data
 * mean_prices.csv - Average prices
 * mean_demand.csv - Average demand
