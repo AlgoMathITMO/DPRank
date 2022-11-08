@@ -38,7 +38,7 @@ Table 1: The structure of the data collected and used.
 As a result of approximation by a power function of the existing price elasticity of demand, its description is formed, as shown in Figure 1.
 
 <p align="center">
-  <img src="https://github.com/AlgoMathITMO/Railways_surrogate_modeling/blob/main/All_data/Fig/A_752A/A%20Surrogate%20model%20of%20price%20elasticity%20of%20demand.jpg" width=100% height=100%>
+  <img src="https://github.com/AlgoMathITMO/DPRank/blob/main/Experiments/Surrogate%20Modeling/Figure/A_752A/A%20Surrogate%20model%20of%20price%20elasticity%20of%20demand.jpg" width=100% height=100%>
 </p>
 <p align="center">
   Figure 1. Price elasticity of demand for Type A train.
@@ -49,7 +49,7 @@ The parameters of this model are represented by the coefficients a and b, as wel
 The model parameters are shown in Figure 2.
 
 <p align="center">
-  <img src="https://github.com/AlgoMathITMO/Railways_surrogate_modeling/blob/main/All_data/Fig/A_752A/A%20Model_parameters.jpg" width=60% height=60%>
+  <img src="https://github.com/AlgoMathITMO/DPRank/blob/main/Experiments/Surrogate%20Modeling/Figure/A_752A/A%20Model_parameters.jpg" width=60% height=60%>
 </p>
 <p align="center">
   Figure 2. Parameters of the linearized model of price elasticity of demand for a Type A train.
