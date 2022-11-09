@@ -1,5 +1,7 @@
 # DPRank
 
+The main contributors: Elizaveta Stavinova, Ilyas Varshavskiy, Petr Chunaev, Ivan Derevitskii and Alexander Boukhanovsky.
+
 ## About
 This repository provides an implementation of algorithmic support for dynamic pricing based on surrogate ticket demand modeling for a passenger rail company on open data.
 
@@ -144,3 +146,5 @@ samples are shown in magenta.
 </p>
 
 Some other graphical results are presented at the [link](https://github.com/AlgoMathITMO/DPRank/tree/main/Experiments/Surrogate%20Modeling/Figure "Graphic results for experiments without incremental learning") and at the [link](https://github.com/AlgoMathITMO/DPRank/tree/main/Experiments/Incremental%20Learning/Figure "Graphic results for experiments with incremental learning").
+
+The study was funded in 2021-2022 by RFBR, Sirius University of Science and Technology, JSC Russian Railways and Educational Fund “Talent and success”, project number 20-37-51006.
